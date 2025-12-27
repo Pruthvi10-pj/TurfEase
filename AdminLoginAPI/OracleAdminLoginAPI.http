@@ -1,0 +1,6 @@
+@OracleAdminLoginAPI_HostAddress = http://localhost:5002
+
+GET {{OracleAdminLoginAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

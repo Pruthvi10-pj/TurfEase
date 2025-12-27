@@ -1,0 +1,43 @@
+.footer {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer i {
+  color: white;
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+  .footer-title {
+    font-size: 1.1rem;
+  }
+
+  .footer p,
+  .footer li,
+  .footer a {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}

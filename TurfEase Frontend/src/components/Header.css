@@ -1,0 +1,61 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Nav link styling */
+.navbar-nav .nav-link {
+  margin-left: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+  font-weight: 500;
+  color: #000;
+}
+
+/* Underline effect using pseudo element */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+/* On hover - underline */
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active link underline */
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 1020;
+    position: relative;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+/* Ensure body content shows below fixed navbar */
+body {
+  padding-top: 90px;
+}

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleAdminLoginAPI", "OracleAdminLoginAPI.csproj", "{46848C50-3472-EA5B-6C0B-C005D55C3ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46848C50-3472-EA5B-6C0B-C005D55C3ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46848C50-3472-EA5B-6C0B-C005D55C3ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46848C50-3472-EA5B-6C0B-C005D55C3ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46848C50-3472-EA5B-6C0B-C005D55C3ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55017A6D-6550-40DE-BB55-1AD8A86E4CF4}
+	EndGlobalSection
+EndGlobal
